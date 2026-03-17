@@ -164,6 +164,7 @@ export default function GameMenu({ isDark, onSelectMode }: GameMenuProps) {
           </div>
         </motion.button>
       </div>
+          <div className='md:pb-0 pb-10'></div>
     </motion.div>
   );
 }

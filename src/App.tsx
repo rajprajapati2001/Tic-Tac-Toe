@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense, lazy } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { ChevronLeft, Cpu, Users, Volume2, VolumeX, Sun, Moon } from 'lucide-react';
-import BackgroundOrbs from './components/BackgroundOrbs';
+const BackgroundOrbs = lazy(() => import('./components/BackgroundOrbs'));
 import GameBoard from './components/GameBoard';
 import GameMenu from './components/GameMenu';
 import GameStatus from './components/GameStatus';
@@ -142,7 +142,9 @@ export default function App() {
       animate={{ backgroundColor: isDark ? '#0a0a0a' : '#f5f5f5' }}
       className={`min-h-screen ${isDark ? 'text-neutral-100' : 'text-neutral-900'} flex flex-col items-center font-sans relative overflow-hidden transition-colors duration-500`}
     >
-      <BackgroundOrbs isDark={isDark} />
+      <Suspense fallback={null}>
+        <BackgroundOrbs isDark={isDark} />
+      </Suspense>
 
       <div className="flex-1 flex flex-col p-4 items-center justify-center w-full max-w-7xl relative z-10">
         <AnimatePresence mode="wait">

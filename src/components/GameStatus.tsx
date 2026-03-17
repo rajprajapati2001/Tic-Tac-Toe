@@ -115,23 +115,34 @@ export default function GameStatus({
       </div>
 
       {/* 🔥 RESET BUTTON (STICKS BOTTOM) */}
-      <div className="flex justify-center">
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={onReset}
-          className={`transform-gpu will-change-transform flex items-center justify-center space-x-2 
-          ${
-            isDark
-              ? 'bg-neutral-100 text-neutral-950 hover:bg-white'
-              : 'bg-neutral-900 text-white hover:bg-black'
-          } 
-          h-10 px-12 rounded-full font-bold transition-colors shadow-lg`}
-        >
-          <RotateCcw className="w-4 h-4" />
-          <span>Reset Game</span>
-        </motion.button>
-      </div>
+<div className="flex justify-center mt-6">
+  <motion.button
+    whileTap={{ scale: 0.95 }} // only click effect
+    transition={{ type: "spring", stiffness: 300 }}
+    onClick={onReset}
+    className={`
+      group relative overflow-hidden flex items-center justify-center gap-2
+      px-14 py-2.5 rounded-full font-semibold tracking-wide
+      transform-gpu will-change-transform
+      transition-all duration-300 shadow-lg
+      ${
+        isDark
+          ? 'bg-emerald-500 text-white hover:bg-emerald-400 shadow-emerald-500/30'
+          : 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-emerald-600/30'
+      }
+    `}
+  >
+    {/* Glow Effect */}
+    <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-300 bg-white/10 blur-xl"></span>
+
+    {/* Icon */}
+    <RotateCcw className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" />
+
+    {/* Text */}
+    <span className="relative z-10">Reset Game</span>
+  </motion.button>
+</div>
+
     </motion.div>
   );
 }

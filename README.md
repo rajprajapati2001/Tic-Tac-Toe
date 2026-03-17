@@ -1,14 +1,13 @@
-A minimal Tic Tac Toe game built with React and Vite for learning modern frontend development.
-![Tic Tac Toe](src/assets/icon/tic-tac-toe-128x128.png)
+![Tic Tac Toe](src/assets/icon/tic-tac-toe-64x64.png)
 
 # Tic Tac Toe
 
 A simple and responsive Tic Tac Toe game built using React and Vite, designed as a lightweight project to demonstrate modern frontend development practices. This project focuses on learning core concepts of React, fast build tooling with Vite, and creating clean, interactive user interfaces.
 
-![Tic Tac Toe](https://img.shields.io/badge/Tic%20Tac%20Toe-Game-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Game](https://img.shields.io/badge/Category-Game-orange?style=for-the-badge&logo=gamepad&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+![Tic Tac Toe](https://img.shields.io/badge/Tic%20Tac%20Toe-Game-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  ![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=FFFFFF) ![JavaScript](https://img.shields.io/badge/JavaScript-222222?style=for-the-badge&logo=JavaScript&logoColor=F7DF1E) ![Gameloft](https://img.shields.io/badge/Gameloft-000000?style=for-the-badge&logo=Gameloft&logoColor=FFFFFF) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=Node.js&logoColor=FFFFFF) 
 
 
-🌐 Web App: [solo-diary-khaki.vercel.app](https://solo-diary-khaki.vercel.app/)
+🌐 Web App: [tic-tac-toe-mu-murex-80.vercel.app](https://tic-tac-toe-mu-murex-80.vercel.app/)
 
 ## Screenshots  
 ![Screenshot](./assets/compltescreenshot.jpg) 
@@ -70,8 +69,8 @@ docker-compose down
 docker-compose up
 ```
 >The app is available at http://localhost:3000
-Port mapping: `3000 (host) → 3000 (container)>`
-See the `docker-compose.yaml` for service configuration.
+>Port mapping: `3000 (host) → 3000 (container)>`
+>See the `docker-compose.yaml` for service configuration.
 
 ## Useful Files
 
