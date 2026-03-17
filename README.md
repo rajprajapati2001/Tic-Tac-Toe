@@ -10,7 +10,7 @@ A simple and responsive Tic Tac Toe game built using React and Vite, designed as
 🌐 Web App: [tic-tac-toe-mu-murex-80.vercel.app](https://tic-tac-toe-mu-murex-80.vercel.app/)
 
 ## Screenshots  
-![Screenshot](./assets/compltescreenshot.jpg) 
+![Screenshot](/src/assets/compltescreenshot.jpg) 
 
 ## Tech Stack
 
