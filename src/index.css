@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a];
+  }
+}
+
+@theme {
+  --font-sans: "Segoe UI", "Trebuchet MS", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Consolas", "Courier New", ui-monospace, SFMono-Regular, monospace;
+  
+  @keyframes shimmer {
+    0% { transform: translateX(-100%) skewX(-15deg); }
+    100% { transform: translateX(200%) skewX(-15deg); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    25% { transform: translateY(-30px) translateX(15px); }
+    50% { transform: translateY(-15px) translateX(30px); }
+    75% { transform: translateY(15px) translateX(-15px); }
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: float 15s infinite ease-in-out;
+}
