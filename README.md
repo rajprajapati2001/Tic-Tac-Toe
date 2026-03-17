@@ -21,16 +21,44 @@ A simple and responsive Tic Tac Toe game built using React and Vite, designed as
 | Icons | Lucide React |
 | Animations | Motion |
 
-## Project Structure (high level)
+## Project Structure
 
 ```
 tic-tac-toe/
-├── src/                # React source (components, assets)
-├── public/             # Static files / index.html
-├── Dockerfile          # Docker build config
-├── docker-compose.yaml # Compose service for local Docker dev
-├── package.json        # Scripts & dependencies
-└── README.md
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── assets/
+│   │   ├── audio
+│   │   │   └── soundEffects.ts
+│   │   └── icons
+│   │       └── tic-tac-toe-header-icon.png
+│   ├── components/
+│   │   ├── BackgroundOrbs.tsx
+│   │   ├── GameBoard.tsx
+│   │   ├── GameMenu.tsx
+│   │   ├── GameStatus.tsx
+│   │   └── Game.jsx
+│   ├── types/
+│   │   └── game.ts
+│   ├── utilities/
+│   │   └── game.ts
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── images.d.ts
+├── .dockerignore
+├── Dockerfile
+├── README.md
+├── docker-compose.yaml
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 ---
 ## 🚀 Getting Started — Local Development
@@ -69,7 +97,9 @@ docker-compose down
 docker-compose up
 ```
 >The app is available at http://localhost:3000
+
 >Port mapping: `3000 (host) → 3000 (container)>`
+
 >See the `docker-compose.yaml` for service configuration.
 
 ## Useful Files
