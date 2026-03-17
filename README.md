@@ -7,7 +7,7 @@ A simple and responsive Tic Tac Toe game built using React and Vite, designed as
 ![Tic Tac Toe](https://img.shields.io/badge/Tic%20Tac%20Toe-Game-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  ![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=FFFFFF) ![JavaScript](https://img.shields.io/badge/JavaScript-222222?style=for-the-badge&logo=JavaScript&logoColor=F7DF1E) ![Gameloft](https://img.shields.io/badge/Gameloft-000000?style=for-the-badge&logo=Gameloft&logoColor=FFFFFF) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=Node.js&logoColor=FFFFFF) 
 
 
-🌐 Web App: [tic-tac-toe-mu-murex-80.vercel.app](https://tic-tac-toe-mu-murex-80.vercel.app/)
+🌐 Website: [https://tic-tac-toe-mu-murex-80.vercel.app/](https://tic-tac-toe-mu-murex-80.vercel.app/)
 
 ## Screenshots  
 ![Screenshot](/src/assets/compltescreenshot.jpg) 
