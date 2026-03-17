@@ -1,4 +1,4 @@
-![Tic Tac Toe](src/assets/icon/tic-tac-toe-64x64.png)
+![Tic Tac Toe](src/assets/icon/tic-tac-toe-128x128.png)
 
 # Tic Tac Toe
 
