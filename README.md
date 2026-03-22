@@ -89,12 +89,12 @@ docker-compose up --build
 2. Start using an existing image (no rebuild)
 
 ```bash
-docker-compose down
+docker-compose up
 ```
 3. Stop and remove containers
 
 ```bash
-docker-compose up
+docker-compose down
 ```
 >The app is available at http://localhost:3000
 
